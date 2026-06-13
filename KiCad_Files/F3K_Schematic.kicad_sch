@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "58b722ac-9212-4b9b-8e5a-bb412742a2b3")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 33.02 30.48)
-		(size 38.1 21.59)
+		(at 33.02 26.67)
+		(size 50.8 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,12 +18,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
-		(uuid "188d239f-2ab0-48bb-aab1-e29f033d2d10")
-		(property "Sheetname" "ESP32-S3"
-			(at 33.02 29.7684 0)
-			(show_name yes)
+		(uuid "bedd6520-c49a-46de-a31b-25113efdaf6e")
+		(property "Sheetname" "RAK3112"
+			(at 33.02 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,9 +32,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Adafruit QT Py ESP32-S3.kicad_sch"
-			(at 33.02 52.6546 0)
-			(show_name yes)
+		(property "Sheetfile" "RAK3112.kicad_sch"
+			(at 33.02 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +46,7 @@
 		(instances
 			(project "F3K_Schematic"
 				(path "/58b722ac-9212-4b9b-8e5a-bb412742a2b3"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
